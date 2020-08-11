@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "sfc": "vue-sfc-cli"
+    "sfc": "vue-sfc-cli",
+    "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
+    "release": "gren release --override"
   },
   "dependencies": {
     "vue": "^2.6.11"
@@ -13,6 +15,12 @@
   "devDependencies": {
     "@vue/cli-service": "~4.5.0",
     "vue-sfc-cli": "^1.11.7",
-    "vue-template-compiler": "^2.6.11"
-  }
+    "vue-template-compiler": "^2.6.11",
+    "@femessage/github-release-notes": "^0.19.0",
+    "standard-version": "^6.0.1"
+  },
+  "vue-sfc-cli": {
+    "updateVersion": "1.11.7"
+  },
+  "gren": "@femessage/grenrc"
 }
