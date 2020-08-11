@@ -1,6 +1,6 @@
 # mock-new-cli
 
-whats wrong with you insane?!
+whats wrong with you insane?! Thats funny and interesting!
 
 ## Project setup
 ```
