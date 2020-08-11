@@ -1,5 +1,7 @@
 # mock-new-cli
 
+whats wrong with you insane?!
+
 ## Project setup
 ```
 yarn install
