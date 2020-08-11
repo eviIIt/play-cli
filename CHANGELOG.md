@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/eviIIt/play-cli/compare/v0.4.3...v0.5.0) (2020-08-11)
+
+
+### Features
+
+* 芜湖 ([#11](https://github.com/eviIIt/play-cli/issues/11)) ([61699a1](https://github.com/eviIIt/play-cli/commit/61699a1))
+
+
+
 ### [0.4.3](https://github.com/eviIIt/play-cli/compare/v0.4.2...v0.4.3) (2020-08-11)
 
 
