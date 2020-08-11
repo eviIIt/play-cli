@@ -1,1 +1,1 @@
-console.log('lol')
+console.log('Watch and subscribe the ellen show')
