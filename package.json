@@ -23,8 +23,9 @@
     "vue-sfc-cli": "^1.11.8",
     "vue-template-compiler": "^2.6.11"
   },
-  "vue-sfc-cli": {
-    "updateVersion": "1.11.7"
-  },
-  "gren": "@femessage/grenrc"
+  "vue-sfc-cli": "1.11.8",
+  "gren": "@femessage/grenrc",
+  "publishConfig": {
+    "access": "public"
+  }
 }
