@@ -1,6 +1,10 @@
 {
   "name": "mock-new-cli",
   "version": "0.2.1",
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
