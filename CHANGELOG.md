@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/eviIIt/play-cli/compare/v0.4.2...v0.4.3) (2020-08-11)
+
+
+### Bug Fixes
+
+* 开玩笑的 ([#8](https://github.com/eviIIt/play-cli/issues/8)) ([9c9a672](https://github.com/eviIIt/play-cli/commit/9c9a672))
+* 有趣的 ([#9](https://github.com/eviIIt/play-cli/issues/9)) ([a31df11](https://github.com/eviIIt/play-cli/commit/a31df11))
+
+
+
 ### [0.4.2](https://github.com/eviIIt/play-cli/compare/v0.4.1...v0.4.2) (2020-08-11)
 
 
