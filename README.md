@@ -1,4 +1,4 @@
-# mock-new-cli
+# mock-new-cli 🏀⚽️you
 
 whats wrong with you insane?! Thats funny and interesting!
 
