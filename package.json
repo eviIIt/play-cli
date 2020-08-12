@@ -9,14 +9,47 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "sfc": "vue-sfc-cli",
-    "test": "echo lol"
+    "test": "echo lol",
+    "stdver": "standard-version -m '[skip ci] chore(release): v%s'",
+    "release": "gren release --override"
   },
   "dependencies": {
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-service": "~4.5.0",
-    "vue-sfc-cli": "^1.11.8",
-    "vue-template-compiler": "^2.6.11"
+    "vue-sfc-cli": "^1.11.15",
+    "vue-template-compiler": "^2.6.11",
+    "@femessage/github-release-notes": "latest",
+    "standard-version": "^6.0.1"
+  },
+  "vue-sfc-cli": "1.11.15",
+  "gren": "@femessage/grenrc",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-commit": "git update-index --again",
+      "pre-push": "yarn test"
+    }
+  },
+  "lint-staged": {
+    "*.@(md|json)": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.vue": [
+      "eslint --fix",
+      "prettier --write",
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
