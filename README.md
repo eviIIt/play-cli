@@ -4,6 +4,8 @@ whats wrong with you insane?! Thats funny and interesting!
 
 Correct wheel!
 
+🏀⚽️you
+
 ## Project setup
 ```
 yarn install
