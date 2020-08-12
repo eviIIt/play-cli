@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@vue/cli-service": "~4.5.0",
-    "vue-sfc-cli": "^1.11.8",
+    "vue-sfc-cli": "^1.11.15",
     "vue-template-compiler": "^2.6.11"
   }
 }
