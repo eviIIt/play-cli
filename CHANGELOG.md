@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/eviIIt/play-cli/compare/v0.6.0...v0.7.0) (2020-08-12)
+
+
+### Features
+
+* 🏀-⚽️-you ([#17](https://github.com/eviIIt/play-cli/issues/17)) ([91e88a7](https://github.com/eviIIt/play-cli/commit/91e88a7))
+
+
+
 ## [0.6.0](https://github.com/eviIIt/play-cli/compare/v0.5.0...v0.6.0) (2020-08-12)
 
 
